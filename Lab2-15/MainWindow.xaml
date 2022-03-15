@@ -1,0 +1,123 @@
+﻿<Window x:Class="Lab2_15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab2_15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid>
+        <FlowDocumentScrollViewer>
+            <FlowDocument>
+                <Paragraph FontSize="25">
+                    Скотный двор (
+                    <Hyperlink NavigateUri="https://ru.wikipedia.org/wiki/%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6_%D0%9E%D1%80%D1%83%D1%8D%D0%BB%D0%BB">Оруэул</Hyperlink> )
+                </Paragraph>
+
+                <Paragraph>
+                    И  свиньи  сообщили,  что  в  течение  последних  трех  месяцев они
+учились читать и писать  по старому сборнику прописей,  который когда-то
+принадлежал  детям  мистера  Джонса,  но  был  выброшен  в  кучу  хлама.
+Наполеон послал  за банками  с черной  и белой  красками и  направился к
+воротам,  за  которыми  начиналась  основная  дорога.   Затем   Сноуболл
+(именно Сноуболл, поскольку у него был самый лучший почерк) взял  своими
+раздвоенными  копытцами  кисть,  закрасил  название "Ферма "Усадьба"" на
+верхней  перекладине  ворот  и  на  этом месте написал "Скотский хутор".
+Отныне  таково  должно  было  быть  название  фермы.  После  этого   они
+вернулись  к  зданию,  где  уже  стояла  прислоненная  к  задней  стенке
+большого  амбара  лестница,  доставленная  по  приказанию  Наполеона   и
+Сноуболла.  Они объяснили, что  последние три месяца, когда они  изучали
+прописи, им, свиньям, удалось  сформулировать в семи заповедях  принципы
+анимализма.  Эти  семь  заповедей  будут  запечатлены  на стене; и в них
+найдут отражение непререкаемые законы, по которым отныне и до  скончания
+века будут  жить все  животные на  ферме. С  некоторыми трудностями (ибо
+свинье  не  так  просто  балансировать  на  лестнице)  Сноуболл забрался
+наверх и принялся за работу; несколькими ступеньками ниже Визгун  держал
+банку с  краской. Заповеди  были написаны  на темной  промасленной стене
+большими  белыми  буквами,  видными  с  тридцати  метров.  Вот  что  они
+гласили:
+                </Paragraph>
+                <Paragraph FontSize="30">
+                    Семь заповедей:
+                </Paragraph>
+
+                <List MarkerStyle="Circle">
+                    <ListItem>
+                        <Paragraph>Каждый, кто ходит на двух ногах, -
+                            <Run Foreground="Red" FontSize="27">враг</Run>.</Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>Каждый, кто  ходит на четырех ногах  или у кого есть  крылья, -
+                            <Run Foreground="green" FontSize="27">друг</Run> .</Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>Животные не носят платья.</Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>Животные не спят в кроватях.</Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>Животные не пьют алкоголя.</Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>Животное не может убить другое животное.</Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>Все животные равны.</Paragraph>
+                    </ListItem>
+
+                </List>
+                <Table BorderThickness="1" BorderBrush="Black">
+                    <Table.Columns>
+                        <TableColumn/>
+                        <TableColumn/>
+                        <TableColumn/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    <Bold>Жанр</Bold>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Bold>Страниц</Bold>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Bold>Год написания</Bold>
+                                </Paragraph>
+                            </TableCell>
+
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Притча, сатира, антиутопия
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    86
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    1945
+                                </Paragraph>
+                            </TableCell>
+
+                        </TableRow>
+                    </TableRowGroup>
+
+                </Table>
+
+            </FlowDocument>
+
+        </FlowDocumentScrollViewer>
+
+    </Grid>
+</Window>
